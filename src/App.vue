@@ -52,7 +52,7 @@
     <!-- 낙엽 (초기 위치는 setup에서 한 번만 생성) -->
     <div v-if="fallingLeaves" class="leaves" aria-hidden="true">
       <div
-          v-for="(leaf, i) in leaves"
+          v-for="(leaf) in leaves"
           :key="leaf.id"
           class="leaf"
           :style="{
